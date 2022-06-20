@@ -8,7 +8,7 @@ Codes of our paper "AxIoU: Axiomatically Justified Measure for Video Moment Retr
 $ pip install -r requirements.txt
 $ python -m spacy download en_core_web_sm
 ```
-All codes are tested with Python3.7.7
+All codes are tested with Python3.7.7.
 
 ## Data
 
@@ -31,9 +31,8 @@ All codes are tested with Python3.7.7
 Then run these commands below:
 
 ```shell
-$ sh run.sh
-:/app# python src/data/make_dataset data/raw/charades/charades_sta_train.txt data/raw/charades/Charades_v1_train.csv
-:/app# python src/data/make_dataset data/raw/charades/charades_sta_test.txt data/raw/charades/Charades_v1_test.csv
+$ python src/data/make_dataset data/raw/charades/charades_sta_train.txt data/raw/charades/Charades_v1_train.csv 
+$ python src/data/make_dataset data/raw/charades/charades_sta_test.txt data/raw/charades/Charades_v1_test.csv
 ```
 
 ### ActivityNet Captions
