@@ -112,11 +112,13 @@ Examples of how to use our toolbox are in the notebook of our reproducible exper
 
 If this work helps your research, please cite:
 ```
-@inproceedings{togashi2022axiou,
-	author={Riku Togashi, Mayu Otani, Yuta Nakahima, Esa Rahtu, and Janne Heikkil{\"{a}}, Tetsuya Sakai},
-	title = {AxIoU: Axiomatically Justified Measure for Video Moment Retrieval},
-	booktitle={CVPR},
-	year={2022}
+@InProceedings{Togashi_2022_CVPR,
+    author    = {Togashi, Riku and Otani, Mayu and Nakashima, Yuta and Rahtu, Esa and Heikkil\"a, Janne and Sakai, Tetsuya},
+    title     = {AxIoU: An Axiomatically Justified Measure for Video Moment Retrieval},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {21076-21085}
 }
 ```
 
