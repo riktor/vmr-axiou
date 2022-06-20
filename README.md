@@ -35,6 +35,12 @@ $ python src/data/make_dataset data/raw/charades/charades_sta_train.txt data/raw
 $ python src/data/make_dataset data/raw/charades/charades_sta_test.txt data/raw/charades/Charades_v1_test.csv
 ```
 
+## Dataset for Model Selection Experiments
+We provide the dataset for our model selection experiments, which includes the snapshots of model predicitons for each epoch of model training with 5 different hyper-parameters. 
+1. Download the dataset (exp-*.tar.gz) from the [release](https://github.com/riktor/vmr-axiou/releases/tag/dataset)
+2. Decompress them into data/validation_exp/exp-*
+
+
 ### ActivityNet Captions
 Download annotations [here](https://cs.stanford.edu/people/ranjaykrishna/densevid/captions.zip) and save `train.json`, `val_1.json` and `val_2.json` in `data/raw/activitynet/`.
 
